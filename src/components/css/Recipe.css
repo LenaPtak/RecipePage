@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 15px;
+    margin: 0px 5px;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+section.dark {
+  background-color: #282D35;
+  color: white;   
+}
+
+/* --- CARD STYLING -------------------------------------------------------------------------------------------------------------*/
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2%;
+    overflow-x: auto;
+    margin-top: 1%;
+}
+
+.card {
+    width: 350px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* --- POPUP --------------------------------------------------------------------------------------------------------------------- */
+.popup {
+  margin-bottom: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.darkCard {
+  display: flex;
+  margin-bottom: 30px;
+  align-content: center;
+  justify-content: center;
+  background-color: #484b50;
+  color: white; 
+  border-radius: 6px;
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.darkCard .popup-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 1em 3em;
+  background-size: 300% 300%;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  background-image: linear-gradient(to right, #1b064d 0%, #7d5878 50%, #351c70 100%);
+  transition: 0.5s;
+}
+
+.popup-content  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.popup-title {
+  height: 60px;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 900;
+  margin-top: 0;
+}
+.popup-body {
+  min-height: 150px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #6b7c93;
+  font-weight: 500;
+  margin-bottom: 2.1em;
+}
+.popup .popup-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 1em 3em;
+  background-size: 300% 300%;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 50%, #895cf2 100%);
+  transition: 0.5s;
+}
+
+.popup-button:hover {
+  background-position: right center;
+}
+
+#btn-2 {
+    background-image: repeating-linear-gradient(-45deg, 
+      #7BDFF2 10px 30px,
+      #B2F7EF 30px 50px,
+      #EFF7F6 50px 70px,
+      #F7D6E0 70px 90px,
+      #F2B5D4 90px 110px
+  );
+  color: black;
+}
+
+#btn-2:hover {
+  background-position: 20% center;
+}

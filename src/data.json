@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "title": "Burst Cherry Tomato Pasta",
+    "description": "A simple sauce of juicy, bursty cherry tomatoes (aka nature’s Gushers) that comes together in around 15 minutes. If you can’t find cherry tomatoes, any larger ones will work just as well for this summery pasta sauce recipe. Simply cut them into pieces about the size of cherry tomatoes and proceed.",
+    "kcal": 435,
+    "coverImg": "p1.jpg",
+    "rating": 3.1,
+    "reviewCount": 6,
+    "type": "Meat"
+},
+{
+    "id": 2,
+    "title": "Pesto Caprese Grilled Cheese",
+    "description": "This pesto caprese grilled cheese is an Italian twist on the traditional grilled cheese sandwich.",
+    "kcal": 125,
+    "coverImg": "p2.jpg",
+    "rating": 25.0,
+    "reviewCount": 30,
+    "type": "Meat"
+},
+{
+    "id": 3,
+    "title": "Spaghetti al Limone With Asparagus",
+    "description": "Evan Funke, chef-owner of L.A.’s pasta temple, Felix Trattoria, believes that pasta sauce should celebrate the craftsmanship of pasta rather than try to steal the spotlight. The citrusy olive oil sauce that naps on these noodles does just that, bringing out the spaghetti’s limber, delicate nature. ",
+    "kcal": 350,
+    "coverImg": "p3.jpg",
+    "rating": 1.8,
+    "reviewCount": 2,
+    "type": "Vegan"
+},
+{
+    "id": 4,
+    "title": "Garlic Mushroom Pasta",
+    "description": "This garlic mushroom pasta recipe is easy to make and incredibly delicious! The garlic butter parmesan sauce is freshened up with a touch of lemon and parsley.",
+    "kcal": 540,
+    "coverImg": "p4.jpg",
+    "rating": 3.8,
+    "reviewCount": 2,
+    "type": "Vegan"
+},
+{
+    "id": 5,
+    "title": "Creamy Spinach and Mushroom Gnocchi",
+    "description": "This creamy mushroom and spinach gnocchi is a restaurant-worthy dinner made in one pan and ready in less than 30 minutes! White wine and parmesan cheese make this sauce extra amazing.",
+    "kcal": 280,
+    "coverImg": "p5.jpg",
+    "rating": 3.8,
+    "reviewCount": 2,
+    "type": "Vegan"
+}]
